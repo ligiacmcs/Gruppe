@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    font-family: 'Flamenco', cursive;   
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0, 0,.2);
+
+    
+}
+
+h3{
+
+
+    font-family: 'Asap', sans-serif;
+
+
+}
+
+
+
+
+.lista ul,
+.lista a {
+
+    list-style:none;
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 17px;
+ 
+    
+
+}
+
+
+header{
+    background: url(../img/bg-banner.png);
+    min-height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+.cards{
+
+
+display: flex;
+justify-content: space-around;
+text-align: center;
+
+}
+
+
+.card-principal{
+    align-items: center;
+    padding-top:200px;
+}
+
+.items > h1,
+.items > p{
+    color: rgb(250, 248, 248);
+}
+
+.items a{
+
+    text-decoration: none;
+    transition: 5s, color;
+    color: wheat;
+    background-color: goldenrod;
+    padding: 15px 30px;
+    font-style: bold;
+
+
+
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(230, 230, 53);
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+
+}
+
+
+
+.sobre{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+
+}
+
+
+
+
+.sobre-a-plat-input{
+
+    max-width: 400px;
+    margin-left: 60px;
+}
+
+
+.secao1{
+    padding:100px;
+}
+
+.secao2{
+    text-align: center;
+    
+
+
+}
+
+.secao3{
+    background: url(../img/bg-servicos.png);
+   
+}
+
+.secao3 >h2{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.servicos-card{
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-serv-1{
+
+    background-color: rgb(33, 172, 236);
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+
+
+}
+
+.card-serv-2{
+
+    background-color: rgb(33, 172, 236);
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.servicos-card{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    
+
+
+}
+
+.curiosidades{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+
+
+}
+
+.secao4 >h2{
+
+    text-align: center;
+    color: antiquewhite;
+    
+ }
+
+.secao4{
+    background: url(../img/bg-numeros.png);
+    background-size: cover;
+}
+
+.curiosidade1 >h3{
+    color: goldenrod;
+    font-weight: 100px;
+}
+
+.curiosidade2 >h3{
+    color: goldenrod;
+    font-weight: 100px;
+}
+
+.curiosidade3 >h3{
+    color: goldenrod;
+    font-weight: 100px;
+}
+
+.curiosidades p{
+
+    color: antiquewhite;
+
+}
+
+.forms-conjunto{
+
+    display: flex;
+    padding-left: 10px;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+
+
+.secao5 >h2,
+.secao5>p{
+    text-align: center;
+    padding:20px;
+}
+
+.lado-a-lado{
+    display: flex;
+    justify-content: center;
+}
+
+.lado-a-lado2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
